@@ -8,7 +8,7 @@ let svg;
 let innerWidth;
 let innerHeight;
 // const svg = d3.select('svg');
-const margin = { top: 100, right: 60, bottom: 200, left: 0 }
+const margin = { top: 100, right: 10, bottom: 100, left: 10 }
 
 function parseLink(link) {
   const left = /^[a-zA-Z0-9]+<-*[0-9]*-+[a-zA-Z0-9]+$/g
